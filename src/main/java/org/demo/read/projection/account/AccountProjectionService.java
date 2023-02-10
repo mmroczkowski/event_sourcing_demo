@@ -16,7 +16,7 @@ import java.util.Optional;
 import java.util.UUID;
 
 /**
- * The ProjectionService class is responsible for projecting events into account projection in relational database.
+ * The AccountProjectionService class is responsible for projecting events into account projection in relational database.
  *
  * @author mmroczkowski
  */
