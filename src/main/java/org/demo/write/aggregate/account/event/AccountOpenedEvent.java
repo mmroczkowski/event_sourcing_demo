@@ -19,9 +19,9 @@ public class AccountOpenedEvent extends Event {
     private BigDecimal initialDeposit;
     private BigDecimal creditLine;
 
-    public AccountOpenedEvent(UUID aggregateId, String AccountNumber, BigDecimal initialDeposit, BigDecimal creditLine) {
+    public AccountOpenedEvent(UUID aggregateId, String accountNumber, BigDecimal initialDeposit, BigDecimal creditLine) {
         super(aggregateId);
-        this.accountNumber = AccountNumber;
+        this.accountNumber = accountNumber;
         this.initialDeposit = initialDeposit;
         this.creditLine = creditLine;
     }
